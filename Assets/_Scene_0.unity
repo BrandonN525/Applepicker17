@@ -108,6 +108,27 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &573829647 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1191853467942434, guid: e6425cb02c6ffda41b37b9b0a646d259,
+    type: 2}
+  m_PrefabInternal: {fileID: 1507509778}
+--- !u!114 &573829648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573829647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb2dd6cfab3bcf4298d0f736e0eb2ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 10
+  leftAndRightEdge: 20
+  chanceToChangeDirections: 0.1
+  secondsBetweenAppleDrops: 1
 --- !u!1 &847866375
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +272,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4278596222710418, guid: e6425cb02c6ffda41b37b9b0a646d259, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4278596222710418, guid: e6425cb02c6ffda41b37b9b0a646d259, type: 2}
       propertyPath: m_LocalPosition.z
@@ -277,7 +298,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114022759643364326, guid: e6425cb02c6ffda41b37b9b0a646d259, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: e6425cb02c6ffda41b37b9b0a646d259, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1888293436
