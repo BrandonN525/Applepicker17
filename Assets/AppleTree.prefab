@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4278596222710418}
   - component: {fileID: 114022759643364326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AppleTree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 33777597722027986}
   - component: {fileID: 136893170472118340}
   - component: {fileID: 23820884957341848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 33668873045428900}
   - component: {fileID: 135405557476719618}
   - component: {fileID: 23207507357612856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1191853467942434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb20d8de364390f4bb8344dbfa99e484, type: 3}
+  m_Script: {fileID: 11500000, guid: ffb2dd6cfab3bcf4298d0f736e0eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 0}

@@ -124,7 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb2dd6cfab3bcf4298d0f736e0eb2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
+  applePrefab: {fileID: 1896150299717112, guid: 279463bab46b453468c7e3d2aa378618,
+    type: 2}
   speed: 10
   leftAndRightEdge: 20
   chanceToChangeDirections: 0.02
@@ -318,6 +319,7 @@ GameObject:
   - component: {fileID: 1888293439}
   - component: {fileID: 1888293438}
   - component: {fileID: 1888293437}
+  - component: {fileID: 1888293442}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -395,3 +397,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1888293442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1888293436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5e1386c27801944a9609168f30b4ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPreFab: {fileID: 1031918461535242, guid: e78f73cdf3b4faa49ab245e4719416df,
+    type: 2}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
